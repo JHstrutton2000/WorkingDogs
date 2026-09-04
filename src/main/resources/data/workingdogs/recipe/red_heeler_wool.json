@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["FF", "FF"],
+  "key": {"F": {"item": "workingdogs:red_heeler_fur"}},
+  "result": {"id": "workingdogs:red_heeler_wool", "count": 1}
+}
