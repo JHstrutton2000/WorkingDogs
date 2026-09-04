@@ -19,6 +19,14 @@ public final class ModItems {
             ITEMS.register("working_dog_spawn_egg", () -> new SpawnEggItem(
                     ModEntities.WORKING_DOG.get(), 0x5B6670, 0xB33A2F, new Item.Properties()));
 
+    public static final DeferredHolder<Item, SpawnEggItem> ZOMBIE_DOG_SPAWN_EGG =
+            ITEMS.register("zombie_dog_spawn_egg", () -> new SpawnEggItem(
+                    ModEntities.ZOMBIE_DOG.get(), 0x52673B, 0x342822, new Item.Properties()));
+
+    public static final DeferredHolder<Item, SpawnEggItem> SKELETON_DOG_SPAWN_EGG =
+            ITEMS.register("skeleton_dog_spawn_egg", () -> new SpawnEggItem(
+                    ModEntities.SKELETON_DOG.get(), 0xD8D1BB, 0x4B5054, new Item.Properties()));
+
     public static final DeferredHolder<Item, SpawnEggItem> BLUE_HEELER_SPAWN_EGG =
             ITEMS.register("blue_heeler_spawn_egg", () -> new SpawnEggItem(
                     ModEntities.WORKING_DOG.get(), 0x52636C, 0x171B1D,

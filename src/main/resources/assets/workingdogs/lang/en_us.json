@@ -1,6 +1,10 @@
 {
   "entity.workingdogs.working_dog": "Working Dog",
+  "entity.workingdogs.zombie_dog": "Zombie Dog",
+  "entity.workingdogs.skeleton_dog": "Skeleton Dog",
   "item.workingdogs.working_dog_spawn_egg": "Working Dog Spawn Egg",
+  "item.workingdogs.zombie_dog_spawn_egg": "Zombie Dog Spawn Egg",
+  "item.workingdogs.skeleton_dog_spawn_egg": "Skeleton Dog Spawn Egg",
   "item.workingdogs.blue_heeler_spawn_egg": "Blue Heeler Spawn Egg",
   "item.workingdogs.red_heeler_spawn_egg": "Red Heeler Spawn Egg",
   "item.workingdogs.german_shepherd_spawn_egg": "German Shepherd Spawn Egg",

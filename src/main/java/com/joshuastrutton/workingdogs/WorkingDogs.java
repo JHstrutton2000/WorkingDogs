@@ -31,6 +31,8 @@ public final class WorkingDogs {
 
     private static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.WORKING_DOG.get(), WorkingDog.createAttributes().build());
+        event.put(ModEntities.ZOMBIE_DOG.get(), UndeadDog.createAttributes().build());
+        event.put(ModEntities.SKELETON_DOG.get(), UndeadDog.createAttributes().build());
     }
 
     private static void registerSpawnPlacements(RegisterSpawnPlacementsEvent event) {
@@ -46,6 +48,8 @@ public final class WorkingDogs {
     private static void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.WORKING_DOG_SPAWN_EGG.get());
+            event.accept(ModItems.ZOMBIE_DOG_SPAWN_EGG.get());
+            event.accept(ModItems.SKELETON_DOG_SPAWN_EGG.get());
             event.accept(ModItems.BLUE_HEELER_SPAWN_EGG.get());
             event.accept(ModItems.RED_HEELER_SPAWN_EGG.get());
             event.accept(ModItems.GERMAN_SHEPHERD_SPAWN_EGG.get());

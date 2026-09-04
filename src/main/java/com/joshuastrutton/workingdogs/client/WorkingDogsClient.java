@@ -12,6 +12,8 @@ public final class WorkingDogsClient {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.WORKING_DOG.get(), WorkingDogRenderer::new);
+        event.registerEntityRenderer(ModEntities.ZOMBIE_DOG.get(), UndeadDogRenderer::new);
+        event.registerEntityRenderer(ModEntities.SKELETON_DOG.get(), UndeadDogRenderer::new);
     }
 
     private WorkingDogsClient() {}
